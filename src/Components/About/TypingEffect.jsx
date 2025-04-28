@@ -13,9 +13,11 @@ export default function TypingEffect() {
             const isMobile = window.innerWidth <= 480;
             return {
                 container: {
-                    fontSize: isMobile ? "1.2 rem" : "2 rem",
-                    marginLeft: isMobile? "10px" : null,
-                    width: "auto"
+                    fontSize: isMobile ? "1.5rem" : "2rem",
+                    marginLeft: isMobile ? "10px" : null,
+                    maxWidth: isMobile ? "300px" : "500px", // ✅ restrict width
+                    wordWrap: "break-word", // ✅ allow breaking long words
+                    overflowWrap: "break-word", // ✅ extra safety
                 },
                 cursor: {
                     display: "inline-block",

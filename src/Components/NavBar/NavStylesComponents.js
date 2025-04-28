@@ -82,7 +82,7 @@ export const FaBar = styled(FaBars)`
 
 /* Mobile Menu */
 export const MobileMenu = styled.div`
-    display: ${props=>(props.isOpen?"flex":"none")};
+    display: "flex";
     flex-direction: column;
     position: absolute;
     z-index: 200;

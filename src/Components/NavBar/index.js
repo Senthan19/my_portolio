@@ -21,7 +21,7 @@ export default function Index() {
             </ContactButton>
 
             <FaBar onClick={() => setOpen(!isOpen)} />
-
+            {isOpen&&
             <MobileMenu isOpen={isOpen}>
                 <MobileLink href="#about" onClick={() => setOpen(false)}>About</MobileLink>
                 <MobileLink href="#skills" onClick={() => setOpen(false)}>Skills</MobileLink>
@@ -29,7 +29,7 @@ export default function Index() {
                 <MobileLink href="#projects" onClick={() => setOpen(false)}>Projects</MobileLink>
                 <MobileLink href="#education" onClick={() => setOpen(false)}>Education</MobileLink>
                 <MobileLink href="mailto:senthanganesh5885@gmail.com" style={{ backgroundColor: "navy", color: "white", borderRadius: "10px",padding:"5px",textAlign:"center" }} onClick={() => setOpen(false)}>Contact Me</MobileLink>
-            </MobileMenu>
+            </MobileMenu>}
         </NavBar>
     );
 }
