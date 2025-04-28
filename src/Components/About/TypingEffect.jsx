@@ -13,8 +13,9 @@ export default function TypingEffect() {
             const isMobile = window.innerWidth <= 480;
             return {
                 container: {
-                    fontSize: isMobile ? "24px" : "40px",
-                    marginLeft: isMobile? "10px" : null
+                    fontSize: isMobile ? "1.2 rem" : "2 rem",
+                    marginLeft: isMobile? "10px" : null,
+                    width: auto
                 },
                 cursor: {
                     display: "inline-block",
