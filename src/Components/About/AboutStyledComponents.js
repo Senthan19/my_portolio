@@ -41,8 +41,7 @@ export const SelfContent = styled.p`
         width: 300px;
         line-gap:2;
         font-size: 17px;
-        text-align: justify;
-        
+        text-align: justify; 
     }
 `;
 

@@ -83,7 +83,8 @@ export const PopupOverlay = styled.div`
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 5px navy;
+  border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -94,8 +95,8 @@ export const PopupOverlay = styled.div`
     width: 100%;
     max-width: 360px;
     height: auto;
-    margin-top: 200px;
-    margin-left: 40px;
+    margin-top: 150px;
+    margin-left: 12px;
   }
 `;
 

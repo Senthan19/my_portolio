@@ -22,7 +22,7 @@ export default function Index() {
 
             <FaBar onClick={() => setOpen(!isOpen)} />
             {isOpen&&
-            <MobileMenu isOpen={isOpen}>
+            <MobileMenu>
                 <MobileLink href="#about" onClick={() => setOpen(false)}>About</MobileLink>
                 <MobileLink href="#skills" onClick={() => setOpen(false)}>Skills</MobileLink>
                 <MobileLink href="#experience" onClick={() => setOpen(false)}>Experience</MobileLink>
