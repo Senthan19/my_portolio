@@ -14,6 +14,7 @@ export default function TypingEffect() {
             return {
                 container: {
                     fontSize: isMobile ? "24px" : "40px",
+                    marginLeft: isMobile? "10px" : null
                 },
                 cursor: {
                     display: "inline-block",

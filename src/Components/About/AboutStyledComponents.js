@@ -39,9 +39,8 @@ export const SelfContent = styled.p`
     @media(max-width: 480px) {
         width: 300px;
         line-gap:2;
-        font-size: 14px;
+        font-size: 17px;
         text-align: justify;
-        font-weight: bold;
         
     }
 `;
