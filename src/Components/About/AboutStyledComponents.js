@@ -13,6 +13,7 @@ export const AboutSection = styled.div`
         height: auto;
         flex-direction: column-reverse;
         margin-top: 10px;
+        justify-content: center;
     }
 `;
 
