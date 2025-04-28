@@ -10,7 +10,7 @@ export default function TypingEffect() {
 
     useEffect(() => {
         function getStyles() {
-            const isMobile = window.innerWidth <= 960;
+            const isMobile = window.innerWidth <= 480;
             return {
                 container: {
                     fontSize: isMobile ? "24px" : "40px",
