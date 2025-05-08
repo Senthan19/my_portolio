@@ -62,7 +62,7 @@ export const Experiences = styled.div`
              transform: scale(1.03);
         }
         @media(max-width: 480px) {
-            width: 100%;
+            width: 95%;
         }
 `;
 

@@ -27,7 +27,7 @@ export const ProjectContent = styled.p`
     margin-bottom: 50px;
 
     @media(max-width: 480px) {
-         width: auto;
+         width: 95%;
         line-gap:2;
         font-size: 1.5rem;
         text-align: justify;

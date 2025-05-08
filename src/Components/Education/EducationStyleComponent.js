@@ -5,10 +5,10 @@ export const EducationMainSection = styled.div`
     min-height: 100vh;
     flex-direction: column;
     align-items: center;
-    padding: 20px; /* Added for spacing */
 
     @media (max-width: 480px) {
         min-height: auto;
+        margin: 0;
     }
 `;
 
@@ -61,10 +61,11 @@ export const EduSection = styled.div`
     }
 
     @media (max-width: 768px) {
-        width: auto;
+        width: 95%;
     }
 
     @media (max-width: 480px) {
+        width: 95%;
         height: auto;
 
     }
