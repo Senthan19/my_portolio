@@ -37,7 +37,7 @@ export const EduContent = styled.p`
     }
 
     @media (max-width: 480px) {
-        width: 350px;
+        width: auto;
         line-gap:2;
         font-size: 20px;
         text-align: justify;
@@ -61,7 +61,7 @@ export const EduSection = styled.div`
     }
 
     @media (max-width: 768px) {
-        max-width: 95%;
+        width: auto;
     }
 
     @media (max-width: 480px) {

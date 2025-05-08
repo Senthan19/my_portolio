@@ -25,7 +25,6 @@ export const SkillSection = styled.div`
      box-shadow: 1px 1px 5px navy;
     @media(max-width: 480px) {
         width: 100%;
-        max-width: 230px;
         padding: 2px 5px;
         height: auto;
     }
@@ -50,9 +49,9 @@ export const SkillContent = styled.p`
     margin-bottom: 50px;
 
     @media(max-width: 480px) {
-        width: 350px;
+        width: auto;
         line-gap:2;
-        font-size: 20px;
+        font-size: 1.5rem;
         text-align: justify;
         margin-bottom: 15px;
     }

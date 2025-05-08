@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const ProjectMainSection = styled.div`
         display: flex;
         width: 100%;
-        height: 100 vh;
+        height: 100vh;
         flex-direction: column;
         align-items: center;
 
@@ -27,9 +27,9 @@ export const ProjectContent = styled.p`
     margin-bottom: 50px;
 
     @media(max-width: 480px) {
-         width: 350px;
+         width: auto;
         line-gap:2;
-        font-size: 20px;
+        font-size: 1.5rem;
         text-align: justify;
         margin-bottom: 15px;
     }
@@ -62,7 +62,6 @@ export const Projects = styled.div`
         }
         @media(max-width: 480px) {
             width: 100%;
-            max-width: 290px;
             height: 290px;
         }
 `;
@@ -73,7 +72,6 @@ export const ProjectImg = styled.img`
 
     @media(max-width: 480px) {
          width: 100%;
-         max-width: 290px;
          height: 130px;
     }
 `

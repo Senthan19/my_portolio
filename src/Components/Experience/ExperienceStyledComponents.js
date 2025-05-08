@@ -27,9 +27,9 @@ export const ExperienceContent = styled.p`
     margin-bottom: 50px;
 
     @media(max-width: 480px) {
-         width: 350px;
+         width: auto;
         line-gap:2;
-        font-size: 20px;
+        font-size: 1.5rem;
         text-align: justify;
         margin-bottom: 20px;
     }
@@ -63,7 +63,6 @@ export const Experiences = styled.div`
         }
         @media(max-width: 480px) {
             width: 100%;
-            max-width: 290px;
         }
 `;
 

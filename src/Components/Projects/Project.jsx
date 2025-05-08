@@ -22,7 +22,7 @@ import Ele from "../../images/Project_icons/major.png";
 import Banner from "../../images/Project_icons/ATM-Program-in-Java.jpg";
 import Banner1 from "../../images/Project_icons/banner.png";
 import TA from "../../images/Project_icons/TA.png";
-
+import ECOM from "../../images/Project_icons/ecommerce.jpg";
 const projectData = [
   {
     img: Eye,
@@ -76,6 +76,15 @@ const projectData = [
       "A React Task Management app with user login/profile editing that lets you create, view, and edit tasks (name, description, start/due dates) via Axios calls to a Spring Boot REST API..",
     technologies: ["Java", "Spring Boot", "Hibernate & Postman","React JS"],
     ViewCode: "https://github.com/Senthan19/Projects/tree/ca233c4d7da7a663e01b976dc44bc83c983087e6/Java%20Projects/taskapp"
+  },
+  {
+    img: ECOM,
+    title: "QuickCart",
+    date: "MAY 2025",
+    description:
+      "Built  a full-stack E-commerce web app using React, Spring Boot, and MySQL with user login, product/category management, cart system, and order tracking on Render.",
+    technologies: ["Java", "Spring Boot", "Hibernate & Postman","React JS"],
+    ViewCode: "https://github.com/Senthan19/Projects/tree/612a1896765e89a07a8b6e90d014a433bfa9de19/Java%20Projects/E-Commerce"
   }
 ];
 

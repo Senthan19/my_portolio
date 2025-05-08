@@ -13,13 +13,13 @@ export default function TypingEffect() {
             const isMobile = window.innerWidth <= 480;
             return {
                 container: {
-                    fontSize: isMobile ? "20px" : "40px",
+                    fontSize: isMobile ? "1.7rem" : "2rem",
                     margin: isMobile && "auto"
                 },
                 cursor: {
                     display: "inline-block",
                     width: "3.5px",
-                    height: isMobile ? "20px" : "40px",
+                    height: isMobile ? "1.7rem" : "1.7rem",
                     backgroundColor: "navy",
                     animation: "blink 0.8s infinite",
                 },

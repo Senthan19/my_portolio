@@ -28,7 +28,7 @@ export const NameHeading = styled.h4`
     magin-bottom:0;
 
     @media(max-width: 480px) {
-        font-size: 20px;
+        font-size: 1.5rem;
         text-align: center;
     }
 `;
@@ -36,12 +36,11 @@ export const NameHeading = styled.h4`
 export const SelfContent = styled.p`
     width: 500px;
     font-size: 30px;
-
+    text-align: justify; 
     @media(max-width: 480px) {
-        width: 300px;
+        width: 100%;
         line-gap:2;
-        font-size: 17px;
-        text-align: justify; 
+        font-size: 1.5rem;
     }
 `;
 
@@ -56,9 +55,10 @@ color:white;
 font-size: 30px;
 
 @media(max-width:480px) {
-    margin-left: 30px;
+    margin: auto;
     padding: 2px 2px;
     align-items: center;
+    justify-content: center;
 }
 `;
 
@@ -69,8 +69,8 @@ export const ProfileIamge = styled.img`
     @media(max-width: 480px) {
         margin-top: 50px;
         width: 100%;
-        max-width: 90px;
-        height: 90px;
+        max-width: 150px;
+        height: 150px;
         margin-bottom: auto;
     }
 `;
